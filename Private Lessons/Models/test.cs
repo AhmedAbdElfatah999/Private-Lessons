@@ -1,4 +1,4 @@
-namespace Private_Lessons.Models
+namespace Private_Lessons.bin.Models
 {
     public class test
     {

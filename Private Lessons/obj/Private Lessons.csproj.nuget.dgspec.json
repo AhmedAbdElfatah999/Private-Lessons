@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\course c#\\Private Lessons\\Private Lessons.csproj": {}
+    "d:\\course c#\\Private Lessons\\Private Lessons.csproj": {}
   },
   "projects": {
-    "D:\\course c#\\Private Lessons\\Private Lessons.csproj": {
+    "d:\\course c#\\Private Lessons\\Private Lessons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\course c#\\Private Lessons\\Private Lessons.csproj",
+        "projectUniqueName": "d:\\course c#\\Private Lessons\\Private Lessons.csproj",
         "projectName": "Private Lessons",
-        "projectPath": "D:\\course c#\\Private Lessons\\Private Lessons.csproj",
+        "projectPath": "d:\\course c#\\Private Lessons\\Private Lessons.csproj",
         "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-        "outputPath": "D:\\course c#\\Private Lessons\\obj\\",
+        "outputPath": "d:\\course c#\\Private Lessons\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -66,10 +66,12 @@
               "version": "[2.0.0, )"
             },
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Recognizers.Text.DateTime": {
+              "target": "Package",
+              "version": "[1.2.7, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -82,6 +84,14 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0-preview1.19504.10, )"
             },
             "cnhbwhxl.negettest.first": {
               "target": "Package",

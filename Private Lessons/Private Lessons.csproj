@@ -6,7 +6,10 @@
     <RootNamespace>Private_Lessons</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Models\PLSDbcontext.cs" />
+    <Content Include="Models\entitycoreContext.cs" />
+    <Content Include="Models\Item.cs" />
+    <Content Include="Models" />
+    <Content Include="Models\subject" />
     <Content Include="Models\students.cs" />
     <Content Include="Program.cs" />
   </ItemGroup>
@@ -16,6 +19,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Recognizers.Text.DateTime" Version="1.2.7" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.0.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="2.0.0-preview1" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.0.0" />
@@ -24,5 +29,26 @@
     <Content Include="Models\test.cs" />
     <Content Include="Migrations\20191014164734_CreatePrivateLessonsDB.cs" />
     <Content Include="Migrations\20191014164734_CreatePrivateLessonsDB.Designer.cs" />
+    <Content Include="Models\entitycoreContext.cs" />
+    <Content Include="Models\PLSContext.cs" />
+    <Content Include="Models\Products.cs" />
+    <Content Include="Models\Item.cs" />
+    <Content Include="bin\Debug\netcoreapp2.2\Private Lessons.deps.json" />
+    <Content Include="Models\subject.cs" />
+    <Content Include="Models\users.cs" />
+    <Content Include="Models\user_types" />
+    <Content Include="Models\user_types.cs" />
+    <Content Include="Models\question.cs" />
+    <Content Include="Models\student_answer.cs" />
+    <Content Include="Models\exam.cs" />
+    <Content Include="Models\book.cs" />
+    <Content Include="Models\exam_question.cs" />
+    <Content Include="Models\student_subject_registration.cs" />
+    <Content Include="Models\student_exams.cs" />
+    <Content Include="Models\subject_teachers.cs" />
+    <Content Include="Models\teachers.cs" />
+    <Content Include="Models\answers.cs" />
+    <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0-preview1.19504.10" />
   </ItemGroup>
 </Project>
